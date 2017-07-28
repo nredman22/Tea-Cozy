@@ -1,8 +1,8 @@
 body {
-    background-color: black;
+    background-color: #666f7a;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
-    color: seashell;
+    color: #eff6ff;
     opacity: 0.9;
 }
 
@@ -18,7 +18,8 @@ header {
     z-index: 5;
     left: 0;
     top: 0;
-    background-color: inherit;
+    background-color: #8191a5;
+
 }
 
 nav a {
@@ -51,13 +52,16 @@ nav span {
     height: 700px;
     width: 1200px;
     align-items: center;
+    border-radius: 8px;
+    justify-content: center;
 }
 
 .mission-content {
-    background-color: black;
-    width: 100%;
+    width: 90%;
     text-align: center;
     padding: 0px;
+    background-color: #666f7a;
+    border-radius: 8px;
 }
 
 .mission-content h2, h4 {
@@ -81,6 +85,7 @@ nav span {
 
 .items img {
     height: 200px;
+    border-radius: 8px;
 }
 
 .items {
@@ -99,17 +104,23 @@ nav span {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    color: #ff9b44;
+    border-radius: 8px;
+
 }
-.locations h2 {
+#locations h2 {
     margin-bottom: 15px;
+    color: #eff6ff;
 }
 
 .location {
-    background-color: black;
+    background-color: #666f7a;
     opacity: 1;
     display: inline-block;
     width: 300px;
     margin: 5px 20px;
+    border-radius: 50px;
+    color: #eff6ff;
 }
 .locations p {
     padding: 10px;
