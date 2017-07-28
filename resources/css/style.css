@@ -81,6 +81,7 @@ nav span {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .items img {
@@ -104,9 +105,13 @@ nav span {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+<<<<<<< HEAD
     color: #ff9b44;
     border-radius: 8px;
 
+=======
+    align-items: center;
+>>>>>>> origin/master
 }
 #locations h2 {
     margin-bottom: 15px;
